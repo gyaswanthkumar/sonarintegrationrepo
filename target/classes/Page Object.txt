@@ -1,0 +1,69 @@
+
+Url=https://e2.minnwestbank.com/apps/onlinebanking/#_frmLogin
+UserName=//input[@placeholder="Username"]
+Password=//input[@placeholder="Password"]
+Submit=//label[@title="Log In"]
+
+AddPhoto=//label[@title="Add Photo"]
+ProfileEdit=//label[@title="Edit"]
+ProfileDelete=//label[@title="Delete"]
+AlertPopup=//label[@title="Yes"]
+
+Phone=//label[text()='Phone']
+AddNewPhone=//label[@title="Add new Phone Number"]
+Type=//select[@kwp="frmProfileManagement_settings_lbxAddPhoneNumberType"]
+PhoneNumber=//input[@placeholder="Phone Number"]
+PrimaryCheckBox=//label[@aria-label="D"]
+Save=//label[contains(text(),'SAVE')]
+PhoneEdit=(//label[@title="Edit"])[1]
+PhoneDelete=(//label[@title="Delete"])[1]
+Email=//label[@aria-label='Email']
+EmailEdit=//label[@title="Edit"]
+EmailAddress=//input[@aria-label='Enter Email']
+Address=//label[text()='Address']
+ExistingAddress=//div[@kwp=\"frmProfileManagement_settings_segAddresses[-1,0]_flxRow_flxAddressWrapper\"]
+
+
+
+
+
+CheckingAccounts=(//label[text()="Checking"])[1]
+Transfer=//*[@aria-label="Scheduled Transactions"]
+TransferTo=//input[@placeholder="Search by account name, account number or recipient name"]
+TransferTolabel=//label[normalize-space()="THRIFT SAVINGS ....2000"][1]
+
+Settings=//div[@title='Settings']
+ProfileSettings=//label[text()='Profile Settings']
+
+Amount=//input[@aria-label="Amount"]
+Frequency=//select[@kwp="frmFastTransfers_lbxFrequency"]
+Optional=//input[@placeholder='Optional']
+
+
+Continue=//label[@aria-label="Continue"]
+Calendar=//img[@alt='Calendar Icon']
+Modify=//label[@aria-label="Modify"]
+
+
+Amount1=//input[@aria-label="Amount"]
+Confirm=//label[@aria-label="Confirm"]
+ReferenceNumber=//label[@kwp="frmConfirmTransfer_lblRefrenceNumberValue"]
+
+Accounts=//label[@aria-label="ACCOUNTS"]
+SignOut=//label[@title='Sign Out']
+POPUp=//label[@aria-label="Yes"]
+
+PhoneType=//select[@kwp="frmProfileManagement_settings_lbxAddPhoneNumberType"]
+
+
+EditPhoneType=//select[@kwp='frmProfileManagement_settings_lbxPhoneNumberType']
+
+EditType=//select[@class='-kony-ca-middleleft sknlbxalto42424215pxBordere3e3e32pxRadius']
+Type=//select[@kwp="frmProfileManagement_settings_lbxAddPhoneNumberType"]
+Home=//option[text()='Home']
+PhoneNumber=//input[@placeholder="Phone Number"]
+
+
+
+
+
